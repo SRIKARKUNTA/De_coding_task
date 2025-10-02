@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "csv-processor"
+version = "0.1.0"
+description = "A Python tool to download, clean, and process order items CSV files"
+authors = ["Grok <grok@x.ai>"]
+readme = "README.md"
+packages = [{include = "csv_processor", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.0"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

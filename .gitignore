@@ -1,0 +1,21 @@
+# Ignore generated data files
+order_items_*.csv
+discarded_rows.csv
+monthly_metrics.csv
+processing_stats.json
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.env/
+venv/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
