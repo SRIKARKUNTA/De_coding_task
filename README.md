@@ -64,3 +64,6 @@ When you run the pipeline, the following files are generated in the working dire
 
 Tests cover basic cleaning functionality using a sample in-memory DataFrame.
 
+## 👨‍💻 Author
+- **Srikar Kunta**  
+
