@@ -2,7 +2,7 @@
 name = "csv-processor"
 version = "0.1.0"
 description = "A Python tool to download, clean, and process order items CSV files"
-authors = ["Grok <grok@x.ai>"]
+authors = srikar
 readme = "README.md"
 packages = [{include = "csv_processor", from = "src"}]
 
